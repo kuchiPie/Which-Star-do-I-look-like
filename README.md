@@ -1,6 +1,8 @@
 # Which-star-do-I-look-like
 An openCV project which can recognize certain celebrities or can tell to whom does a face resembles closely. It is built on openCV's inbuilt face recognizer
 
+# Make sure that you have openCV, numpy and opencv-contrib-python libraries installed.
+
 # steps to run the program by webcam
 1. Clone this repo
 2. Run faceRecognitionWebCam.py

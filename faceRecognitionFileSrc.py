@@ -13,6 +13,7 @@ people = ['Chris Evans', 'Bhumi Pednekar', 'Ranbir Kapoor', 'Sara Ali Khan', 'El
 face_recognizer = cv.face.LBPHFaceRecognizer_create()
 face_recognizer.read('face_trained.yml')
 
+# -------------Add your File source in below line----------
 img = cv.imread(r'C:\Users\shrey\OneDrive\Documents\Shreyas coding\Which Star do I look like\photos\test\bhumi.jpg')
 
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
